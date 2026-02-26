@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.fancy {
+  font-family: "Lavishly Yours", cursive;
+  
+}
+
+.cute {
+  font-family: "Mystery Quest", system-ui;
+}
+.about {
+  font-family: "Eagle Lake", serif;
+ 
+}
+.font1 {
+  font-family: "Ephesis", cursive;
+
+}
+.font2 {
+  font-family: "Rouge Script", cursive;
+ 
+}
+
+.font3 {
+  font-family: "Cookie", cursive;
+  
+}
+.love {
+  font-family: "Love Light", cursive;
+  
+}
+
+/* Floating Hearts */
+.heart {
+  position: absolute;
+  bottom: -20px;
+  font-size: 18px;
+  animation: floatUp linear infinite;
+  opacity: 0.7;
+}
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(-110vh) scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* Title Letter Animation */
+.love-title span {
+  display: inline-block;
+  animation: bounceLove 1.5s ease-in-out infinite;
+  color: #e11d48;
+}
+
+@keyframes bounceLove {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Popup Animation */
+@keyframes popup {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animate-popup {
+  animation: popup 0.3s ease-in-out;
+}
+
+
+
+nav,ul,li{
+  color: #9E182B;
+}
+
+
+
+        
+@keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.95); }
+            to { opacity: 1; transform: scale(1); }
+          }
+
+@keyframes slideIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+          }
+
+.animate-fadeIn {
+            animation: fadeIn 0.6s ease-in-out;
+          }
+
+.animate-slideIn {
+            animation: slideIn 0.6s ease-in-out;
+          }
+        
+      /* Floating Hearts Animation */
+
+@keyframes floatUp {
+  0% {
+    transform: translateY(100vh) scale(0.8);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-10vh) scale(1.2);
+    opacity: 0;
+  }
+}
+
+.heart {
+  position: absolute;
+  bottom: -50px;
+  font-size: 24px;
+  animation: floatUp 8s linear infinite;
+}
