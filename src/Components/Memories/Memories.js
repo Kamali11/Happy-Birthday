@@ -54,7 +54,7 @@ export default function Memories() {
             short: "Beautiful day to Trichy",
             full: "First Day Meeting Rendu Perum Payanthude Meet Panna Day, Trichy Pillaiyar kovil ponom",
             position: "object-top"
-        },
+        } ,
         {
             id: 2,
             title: "College Meet Day 🌊",
@@ -62,7 +62,8 @@ export default function Memories() {
             short: "First Pic of Our College Together",
             full: "First Picture Namma college onna rendu perum edutha Picture, Certificate vanga vantha day",
             position:"object-cover"
-        },
+        }
+        ,
        
          {
             id: 4,
@@ -108,7 +109,8 @@ export default function Memories() {
             short: "Secret Engagement Picture",
             full: "Yarukittuyum solllama Thiruvannamalai ku poitu Namma Rendu perukkum onna ring vangitu namma anga engagement pannikitta day, unforgetable moments nadantha place",
             position:"object-top"
-        }, , {
+        }, 
+         {
             id: 11,
             title: "Dam Day",
             image: m11,
@@ -207,14 +209,14 @@ export default function Memories() {
             full: "Marriage ku munnadi naal namaku ooru ellarum onna senthu vacha nalangu, enga caste ithu ellam pannathu illai, but enaku ithu ellam vithiyasama irunthuchu one of the best best moments",
             position:"object-cover"
         }, {
-            id: 27,
+            id: 26,
             title: "Marriage Day",
             image: m27,
             short: "Our Best Moments Happened Jun6 2025 ",
             full: "Namma Ivolo naal kanavu kanda naal, Most precious moments for every girl , unakey ennai eluthi kudutha Day Innum enoda kannukullaiye nikkuthu, enna tha ennoda Family ellaraiyum vitutu vanthlum enaku intha moments epovum best",
             position:"object-cover"
         }, {
-            id: 26,
+            id: 27,
             title: "Marriage Day",
             image: m26,
             short: "First Picture",
@@ -312,7 +314,7 @@ export default function Memories() {
             short: "Vellimalai Picture",
             full: "Vellimalai ponom neraiya picture eduthom but ithu ennoda favourite picture",
             position:"object-cover"
-        }, 
+        }
     ];
 
     return (
